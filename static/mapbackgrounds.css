@@ -1,4 +1,9 @@
-#pl_barnblitz
+#pl_badwater
 {
-    background-image: url"({{ url_for ('static', filename = 'images/pl_badwater.png') }}");
+    background-image: url('images/pl_badwater.png');
+}
+
+#pl_upward
+{
+    background-image: url('images/pl_upward.png');
 }

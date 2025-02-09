@@ -2,8 +2,8 @@ from flask import Flask, request, render_template
 import valve.rcon
 
 app = Flask(__name__)
-RCON_PASSWORD = "YOUR PW HERE"
-RCON_ADDRESS = ("YOUR ADDRESS HERE",27015)
+RCON_PASSWORD = "GROSISIMI PENNONI"
+RCON_ADDRESS = ("192.168.1.241",27015)
 _RCON = valve.rcon.RCON(RCON_ADDRESS,RCON_PASSWORD)
 
 @app.route('/')
