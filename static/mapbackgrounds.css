@@ -1,0 +1,4 @@
+#pl_barnblitz
+{
+    background-image: url"({{ url_for ('static', filename = 'images/pl_badwater.png') }}");
+}

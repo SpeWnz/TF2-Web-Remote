@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TF2 Web Manager</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='mapbackgrounds.css') }}">
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </head>
+    <body>
+        <h1>Change map</h1>
+        <button id="pl_barnblitz" value="changelevel pl_barnblitz" onclick="rconExec(this); return false;">pl_barnblitz</button>
+        <button value="changelevel pl_upward" onclick="rconExec(this); return false;">pl_upward</button>
+        <button value="changelevel pl_badwater" onclick="rconExec(this); return false;">pl_badwater</button>
+        <button value="changelevel pl_thundermountain" onclick="rconExec(this); return false;">pl_thundermountain</button>
+        
+        <hr>
+
+        <h1>Administration</h1>
+        <button value="say potato" onclick="rconExec(this); return false;">Say potato</button>
+        <button value="tf_bot_add blue" onclick="rconExec(this); return false;">Add RED bot</button>
+        <button value="tf_bot_add red" onclick="rconExec(this); return false;">Add BLU bot</button>
+        
+    </body>
+</html>
+
