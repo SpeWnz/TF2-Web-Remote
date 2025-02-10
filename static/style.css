@@ -17,6 +17,7 @@
 }
 
 body, html{
+    height: 100%;
     margin: 0;
     width: 100%;
     text-align: center;
@@ -24,14 +25,27 @@ body, html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
     /*background-color: var(--testbg);*/
     background-image: url('./assets/images/pattern.svg');
     background-attachment: fixed;
 }
 
-nav{
+footer{
+    text-shadow: 2px 2px var(--button-elem-shad);
+    color: var(--main-elem-text) !important;
+    border-radius: 20px 20px 0px 0px !important;
+    padding: 25px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer a{
+    color: var(--main-elem-text) !important;
+}
+
+nav, footer{
     background-color: var(--main-elem-bg);
     width: 100%;
     margin: 0;
@@ -67,6 +81,13 @@ nav ul {
 
 #title{
     color: var(--test-title-bg);
+}
+
+#wrapper {
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main{
