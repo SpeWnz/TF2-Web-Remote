@@ -17,6 +17,51 @@ article button{
 #cp_5gorge {
     background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_5gorge.jpg');
 }
+#cp_carrier {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_carrier.jpg');
+}
+#cp_snowplow {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_snowplow.jpg');
+}
+#cp_freaky_fair {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_freaky_fair.jpg');
+}
+#cp_spookeyridge {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_spookeyridge.jpg');
+}
+#cp_snakewater_final1 {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_snakewater_final1.jpg');
+}
+#cp_freight_final1 {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_freight_final1.jpg');
+}
+#cp_coldfront {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_coldfront.jpg');
+}
+#cp_manor_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_manor_event.jpg');
+}
+#cp_orange_x3{
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_orange_x3.jpg');
+}
+#cp_gorge_event{
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_gorge_event.jpg');
+}
+#cp_lavapit_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_lavapit_final.jpg');
+}
+#cp_junction_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_junction_final.jpg');
+}
+#cp_standin_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_standin_final.jpg');
+}
+#cp_cloak {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_cloak.jpg');
+}
+#cp_frostwatch {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_frostwatch.jpg');
+}
 #cp_degrootkeep {
     background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_degrootkeep.jpg');
 }
