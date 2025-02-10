@@ -137,6 +137,24 @@ button:hover{
     transition: 0.2s;
 }
 
+#red{
+    background-color: maroon;
+}
+
+#blu{
+    background-color: darkslateblue;
+}
+
+#blu, #red{
+    color: var(--main-elem-text) !important;
+    text-shadow: none !important;
+    font-size: large;
+}
+
+#potato{
+    background-image: url('./assets/images/potato.png');
+}
+
 @media screen and (max-width:565px){
     main{
         width: 90%;

@@ -4,6 +4,8 @@
 
 article button{
     background-position: center !important;
+    font-size: medium;
+    text-shadow: 0px 0px 5px white;
 }
 
 #pl_badwater
@@ -65,6 +67,9 @@ article button{
 #cp_degrootkeep {
     background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_degrootkeep.jpg');
 }
+#cp_darkmarsh{
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_darkmarsh.jpg');
+}   
 #cp_gorge {
     background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_gorge.jpg');
 }
