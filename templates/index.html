@@ -11,8 +11,8 @@
     <body>
         <nav>
             <ul>
-                <li><button class="navbut">Map Selector</button></li>
-                <li><button class="navbut">Administration</button></li>
+                <li><button onclick="window.location.hash = ''; goTo('mapchange');" class="navbut">Map Selector</button></li>
+                <li><button onclick="window.location.hash = 'admin'; goTo('admin');" class="navbut">Administration</button></li>
             </ul>
         </nav>
         <h1 id="title"></h1>
@@ -192,10 +192,8 @@
             </article>
 
         </main>
-        
-
-        <hr>
-        <main>
+    
+        <main id="admin">
             <h1>Administration</h1>
             <article>
                 <button value="say potato" onclick="rconExec(this); return false;">Say potato</button>
