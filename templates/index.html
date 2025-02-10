@@ -15,193 +15,198 @@
                 <li><button onclick="window.location.hash = 'admin'; goTo('admin');" class="navbut">Administration</button></li>
             </ul>
         </nav>
-        <h1 id="title"></h1>
-        <main id="mapchange">
-            <h1>Map Selector</h1>
 
-            <article>
-                <h2>Payload</h2>
-                <button id="pl_venice" value="changelevel pl_venice" onclick="rconExec(this); return false;">pl_venice</button>
-                <button id="pl_frontier_final" value="changelevel pl_frontier_final" onclick="rconExec(this); return false;">pl_frontier_final</button>
-                <button id="pl_patagonia" value="changelevel pl_patagonia" onclick="rconExec(this); return false;">pl_patagonia</button>
-                <button id="pl_wutville_event" value="changelevel pl_wutville_event" onclick="rconExec(this); return false;">pl_wutville_event</button>
-                <button id="pl_borneo" value="changelevel pl_borneo" onclick="rconExec(this); return false;">pl_borneo</button>
-                <button id="pl_pier" value="changelevel pl_pier" onclick="rconExec(this); return false;">pl_pier</button>
-                <button id="pl_coal_event" value="changelevel pl_coal_event" onclick="rconExec(this); return false;">pl_coal_event</button>
-                <button id="pl_rumford_event" value="changelevel pl_rumford_event" onclick="rconExec(this); return false;">pl_rumford_event</button>
-                <button id="pl_hasslecastle" value="changelevel pl_hasslecastle" onclick="rconExec(this); return false;">pl_hasslecastle</button>
-                <button id="pl_frostcliff" value="changelevel pl_frostcliff" onclick="rconExec(this); return false;">pl_frostcliff</button>
-                <button id="pl_swiftwater_final1" value="changelevel pl_swiftwater_final1" onclick="rconExec(this); return false;">pl_swiftwater_final1</button>
-                <button id="pl_enclosure_final" value="changelevel pl_enclosure_final" onclick="rconExec(this); return false;">pl_enclosure_final</button>
-                <button id="pl_goldrush" value="changelevel pl_goldrush" onclick="rconExec(this); return false;">pl_goldrush</button>
-                <button id="pl_corruption" value="changelevel pl_corruption" onclick="rconExec(this); return false;">pl_corruption</button>
-                <button id="pl_embargo" value="changelevel pl_embargo" onclick="rconExec(this); return false;">pl_embargo</button>
-                <button id="pl_emerge" value="changelevel pl_emerge" onclick="rconExec(this); return false;">pl_emerge</button>
-                <button id="pl_fifthcurve_event" value="changelevel pl_fifthcurve_event" onclick="rconExec(this); return false;">pl_fifthcurve_event</button>
-                <button id="pl_thundermountain" value="changelevel pl_thundermountain" onclick="rconExec(this); return false;">pl_thundermountain</button>
-                <button id="pl_cashworks" value="changelevel pl_cashworks" onclick="rconExec(this); return false;">pl_cashworks</button>
-                <button id="pl_phoenix" value="changelevel pl_phoenix" onclick="rconExec(this); return false;">pl_phoenix</button>
-                <button id="pl_upward" value="changelevel pl_upward" onclick="rconExec(this); return false;">pl_upward</button>
-                <button id="pl_badwater" value="changelevel pl_badwater" onclick="rconExec(this); return false;">pl_badwater</button>
-                <button id="pl_sludgepit_event" value="changelevel pl_sludgepit_event" onclick="rconExec(this); return false;">pl_sludgepit_event</button>
-                <button id="pl_camber" value="changelevel pl_camber" onclick="rconExec(this); return false;">pl_camber</button>
-                <button id="pl_breadspace" value="changelevel pl_breadspace" onclick="rconExec(this); return false;">pl_breadspace</button>
-                <button id="pl_bloodwater" value="changelevel pl_bloodwater" onclick="rconExec(this); return false;">pl_bloodwater</button>
-                <button id="pl_cactuscanyon" value="changelevel pl_cactuscanyon" onclick="rconExec(this); return false;">pl_cactuscanyon</button>
-                <button id="pl_snowycoast" value="changelevel pl_snowycoast" onclick="rconExec(this); return false;">pl_snowycoast</button>
-                <button id="pl_precipice_event_final" value="changelevel pl_precipice_event_final" onclick="rconExec(this); return false;">pl_precipice_event_final</button>
-                <button id="pl_hoodoo_final" value="changelevel pl_hoodoo_final" onclick="rconExec(this); return false;">pl_hoodoo_final</button>
-                <button id="pl_chilly" value="changelevel pl_chilly" onclick="rconExec(this); return false;">pl_chilly</button>
-                <button id="pl_spineyard" value="changelevel pl_spineyard" onclick="rconExec(this); return false;">pl_spineyard</button>
-                <button id="pl_millstone_event" value="changelevel pl_millstone_event" onclick="rconExec(this); return false;">pl_millstone_event</button>
-                <button id="pl_barnblitz" value="changelevel pl_barnblitz" onclick="rconExec(this); return false;">pl_barnblitz</button>
-                <button id="pl_terror_event" value="changelevel pl_terror_event" onclick="rconExec(this); return false;">pl_terror_event</button>
-                <button id="pl_rumble_event" value="changelevel pl_rumble_event" onclick="rconExec(this); return false;">pl_rumble_event</button>
-                <button id="pl_odyssey" value="changelevel pl_odyssey" onclick="rconExec(this); return false;">pl_odyssey</button>
-            </article>
+        <div id="wrapper">
+            <h1 id="title"></h1>
+            <main id="mapchange">
+                <h1>Map Selector</h1>
 
-            <article>
-                <h2>Control Points</h2>
-                <button id="cp_gorge_event" value="changelevel cp_gorge_event" onclick="rconExec(this); return false;">cp_gorge_event</button>
-                <button id="cp_steel" value="changelevel cp_steel" onclick="rconExec(this); return false;">cp_steel</button>
-                <button id="cp_gorge" value="changelevel cp_gorge" onclick="rconExec(this); return false;">cp_gorge</button>
-                <button id="cp_carrier" value="changelevel cp_carrier" onclick="rconExec(this); return false;">cp_carrier</button>
-                <button id="cp_5gorge" value="changelevel cp_5gorge" onclick="rconExec(this); return false;">cp_5gorge</button>
-                <button id="cp_egypt_final" value="changelevel cp_egypt_final" onclick="rconExec(this); return false;">cp_egypt_final</button>
-                <button id="cp_brew" value="changelevel cp_brew" onclick="rconExec(this); return false;">cp_brew</button>
-                <button id="cp_gravelpit_snowy" value="changelevel cp_gravelpit_snowy" onclick="rconExec(this); return false;">cp_gravelpit_snowy</button>
-                <button id="cp_snowplow" value="changelevel cp_snowplow" onclick="rconExec(this); return false;">cp_snowplow</button>
-                <button id="cp_freaky_fair" value="changelevel cp_freaky_fair" onclick="rconExec(this); return false;">cp_freaky_fair</button>
-                <button id="cp_spookeyridge" value="changelevel cp_spookeyridge" onclick="rconExec(this); return false;">cp_spookeyridge</button>
-                <button id="cp_mountainlab" value="changelevel cp_mountainlab" onclick="rconExec(this); return false;">cp_mountainlab</button>
-                <button id="cp_mossrock" value="changelevel cp_mossrock" onclick="rconExec(this); return false;">cp_mossrock</button>
-                <button id="cp_darkmarsh" value="changelevel cp_darkmarsh" onclick="rconExec(this); return false;">cp_darkmarsh</button>
-                <button id="cp_dustbowl" value="changelevel cp_dustbowl" onclick="rconExec(this); return false;">cp_dustbowl</button>
-                <button id="cp_foundry" value="changelevel cp_foundry" onclick="rconExec(this); return false;">cp_foundry</button>
-                <button id="cp_snakewater_final1" value="changelevel cp_snakewater_final1" onclick="rconExec(this); return false;">cp_snakewater_final1</button>
-                <button id="cp_well" value="changelevel cp_well" onclick="rconExec(this); return false;">cp_well</button>
-                <button id="cp_process_final" value="changelevel cp_process_final" onclick="rconExec(this); return false;">cp_process_final</button>
-                <button id="cp_degrootkeep" value="changelevel cp_degrootkeep" onclick="rconExec(this); return false;">cp_degrootkeep</button>
-                <button id="cp_sunshine_event" value="changelevel cp_sunshine_event" onclick="rconExec(this); return false;">cp_sunshine_event</button>
-                <button id="cp_granary" value="changelevel cp_granary" onclick="rconExec(this); return false;">cp_granary</button>
-                <button id="cp_coldfront" value="changelevel cp_coldfront" onclick="rconExec(this); return false;">cp_coldfront</button>
-                <button id="cp_fastlane" value="changelevel cp_fastlane" onclick="rconExec(this); return false;">cp_fastlane</button>
-                <button id="cp_hardwood_final" value="changelevel cp_hardwood_final" onclick="rconExec(this); return false;">cp_hardwood_final</button>
-                <button id="cp_manor_event" value="changelevel cp_manor_event" onclick="rconExec(this); return false;">cp_manor_event</button>
-                <button id="cp_freight_final1" value="changelevel cp_freight_final1" onclick="rconExec(this); return false;">cp_freight_final1</button>
-                <button id="cp_reckoner" value="changelevel cp_reckoner" onclick="rconExec(this); return false;">cp_reckoner</button>
-                <button id="cp_sulfur" value="changelevel cp_sulfur" onclick="rconExec(this); return false;">cp_sulfur</button>
-                <button id="cp_gravelpit" value="changelevel cp_gravelpit" onclick="rconExec(this); return false;">cp_gravelpit</button>
-                <button id="cp_vanguard" value="changelevel cp_vanguard" onclick="rconExec(this); return false;">cp_vanguard</button>
-                <button id="cp_orange_x3" value="changelevel cp_orange_x3" onclick="rconExec(this); return false;">cp_orange_x3</button>
-                <button id="cp_overgrown" value="changelevel cp_overgrown" onclick="rconExec(this); return false;">cp_overgrown</button>
-                <button id="cp_lavapit_final" value="changelevel cp_lavapit_final" onclick="rconExec(this); return false;">cp_lavapit_final</button>
-                <button id="cp_hadal" value="changelevel cp_hadal" onclick="rconExec(this); return false;">cp_hadal</button>
-                <button id="cp_powerhouse" value="changelevel cp_powerhouse" onclick="rconExec(this); return false;">cp_powerhouse</button>
-                <button id="cp_yukon_final" value="changelevel cp_yukon_final" onclick="rconExec(this); return false;">cp_yukon_final</button>
-                <button id="cp_altitude" value="changelevel cp_altitude" onclick="rconExec(this); return false;">cp_altitude</button>
-                <button id="cp_fortezza" value="changelevel cp_fortezza" onclick="rconExec(this); return false;">cp_fortezza</button>
-                <button id="cp_standin_final" value="changelevel cp_standin_final" onclick="rconExec(this); return false;">cp_standin_final</button>
-                <button id="cp_ambush_event" value="changelevel cp_ambush_event" onclick="rconExec(this); return false;">cp_ambush_event</button>
-                <button id="cp_mercenarypark" value="changelevel cp_mercenarypark" onclick="rconExec(this); return false;">cp_mercenarypark</button>
-                <button id="cp_gullywash_final1" value="changelevel cp_gullywash_final1" onclick="rconExec(this); return false;">cp_gullywash_final1</button>
-                <button id="cp_junction_final" value="changelevel cp_junction_final" onclick="rconExec(this); return false;">cp_junction_final</button>
-                <button id="cp_badlands" value="changelevel cp_badlands" onclick="rconExec(this); return false;">cp_badlands</button>
-                <button id="cp_cloak" value="changelevel cp_cloak" onclick="rconExec(this); return false;">cp_cloak</button>
-                <button id="cp_metalworks" value="changelevel cp_metalworks" onclick="rconExec(this); return false;">cp_metalworks</button>
-                <button id="cp_frostwatch" value="changelevel cp_frostwatch" onclick="rconExec(this); return false;">cp_frostwatch</button>
-                <button id="cp_canaveral_5cp" value="changelevel cp_canaveral_5cp" onclick="rconExec(this); return false;">cp_canaveral_5cp</button>
-                <button id="cp_burghausen" value="changelevel cp_burghausen" onclick="rconExec(this); return false;">cp_burghausen</button>
-                <button id="cp_sunshine" value="changelevel cp_sunshine" onclick="rconExec(this); return false;">cp_sunshine</button>
-                <button id="cp_degrootkeep_rats" value="changelevel cp_degrootkeep_rats" onclick="rconExec(this); return false;">cp_degrootkeep_rats</button>
-            </article>
+                <article>
+                    <h2>Payload</h2>
+                    <button id="pl_venice" value="changelevel pl_venice" onclick="rconExec(this); return false;">pl_venice</button>
+                    <button id="pl_frontier_final" value="changelevel pl_frontier_final" onclick="rconExec(this); return false;">pl_frontier_final</button>
+                    <button id="pl_patagonia" value="changelevel pl_patagonia" onclick="rconExec(this); return false;">pl_patagonia</button>
+                    <button id="pl_wutville_event" value="changelevel pl_wutville_event" onclick="rconExec(this); return false;">pl_wutville_event</button>
+                    <button id="pl_borneo" value="changelevel pl_borneo" onclick="rconExec(this); return false;">pl_borneo</button>
+                    <button id="pl_pier" value="changelevel pl_pier" onclick="rconExec(this); return false;">pl_pier</button>
+                    <button id="pl_coal_event" value="changelevel pl_coal_event" onclick="rconExec(this); return false;">pl_coal_event</button>
+                    <button id="pl_rumford_event" value="changelevel pl_rumford_event" onclick="rconExec(this); return false;">pl_rumford_event</button>
+                    <button id="pl_hasslecastle" value="changelevel pl_hasslecastle" onclick="rconExec(this); return false;">pl_hasslecastle</button>
+                    <button id="pl_frostcliff" value="changelevel pl_frostcliff" onclick="rconExec(this); return false;">pl_frostcliff</button>
+                    <button id="pl_swiftwater_final1" value="changelevel pl_swiftwater_final1" onclick="rconExec(this); return false;">pl_swiftwater_final1</button>
+                    <button id="pl_enclosure_final" value="changelevel pl_enclosure_final" onclick="rconExec(this); return false;">pl_enclosure_final</button>
+                    <button id="pl_goldrush" value="changelevel pl_goldrush" onclick="rconExec(this); return false;">pl_goldrush</button>
+                    <button id="pl_corruption" value="changelevel pl_corruption" onclick="rconExec(this); return false;">pl_corruption</button>
+                    <button id="pl_embargo" value="changelevel pl_embargo" onclick="rconExec(this); return false;">pl_embargo</button>
+                    <button id="pl_emerge" value="changelevel pl_emerge" onclick="rconExec(this); return false;">pl_emerge</button>
+                    <button id="pl_fifthcurve_event" value="changelevel pl_fifthcurve_event" onclick="rconExec(this); return false;">pl_fifthcurve_event</button>
+                    <button id="pl_thundermountain" value="changelevel pl_thundermountain" onclick="rconExec(this); return false;">pl_thundermountain</button>
+                    <button id="pl_cashworks" value="changelevel pl_cashworks" onclick="rconExec(this); return false;">pl_cashworks</button>
+                    <button id="pl_phoenix" value="changelevel pl_phoenix" onclick="rconExec(this); return false;">pl_phoenix</button>
+                    <button id="pl_upward" value="changelevel pl_upward" onclick="rconExec(this); return false;">pl_upward</button>
+                    <button id="pl_badwater" value="changelevel pl_badwater" onclick="rconExec(this); return false;">pl_badwater</button>
+                    <button id="pl_sludgepit_event" value="changelevel pl_sludgepit_event" onclick="rconExec(this); return false;">pl_sludgepit_event</button>
+                    <button id="pl_camber" value="changelevel pl_camber" onclick="rconExec(this); return false;">pl_camber</button>
+                    <button id="pl_breadspace" value="changelevel pl_breadspace" onclick="rconExec(this); return false;">pl_breadspace</button>
+                    <button id="pl_bloodwater" value="changelevel pl_bloodwater" onclick="rconExec(this); return false;">pl_bloodwater</button>
+                    <button id="pl_cactuscanyon" value="changelevel pl_cactuscanyon" onclick="rconExec(this); return false;">pl_cactuscanyon</button>
+                    <button id="pl_snowycoast" value="changelevel pl_snowycoast" onclick="rconExec(this); return false;">pl_snowycoast</button>
+                    <button id="pl_precipice_event_final" value="changelevel pl_precipice_event_final" onclick="rconExec(this); return false;">pl_precipice_event_final</button>
+                    <button id="pl_hoodoo_final" value="changelevel pl_hoodoo_final" onclick="rconExec(this); return false;">pl_hoodoo_final</button>
+                    <button id="pl_chilly" value="changelevel pl_chilly" onclick="rconExec(this); return false;">pl_chilly</button>
+                    <button id="pl_spineyard" value="changelevel pl_spineyard" onclick="rconExec(this); return false;">pl_spineyard</button>
+                    <button id="pl_millstone_event" value="changelevel pl_millstone_event" onclick="rconExec(this); return false;">pl_millstone_event</button>
+                    <button id="pl_barnblitz" value="changelevel pl_barnblitz" onclick="rconExec(this); return false;">pl_barnblitz</button>
+                    <button id="pl_terror_event" value="changelevel pl_terror_event" onclick="rconExec(this); return false;">pl_terror_event</button>
+                    <button id="pl_rumble_event" value="changelevel pl_rumble_event" onclick="rconExec(this); return false;">pl_rumble_event</button>
+                    <button id="pl_odyssey" value="changelevel pl_odyssey" onclick="rconExec(this); return false;">pl_odyssey</button>
+                </article>
 
-            <article>
-                <h2>Capture the Flag</h2>
-                <button id="ctf_well" value="changelevel ctf_well" onclick="rconExec(this); return false;">ctf_well</button>
-                <button id="ctf_frosty" value="changelevel ctf_frosty" onclick="rconExec(this); return false;">ctf_frosty</button>
-                <button id="ctf_gorge" value="changelevel ctf_gorge" onclick="rconExec(this); return false;">ctf_gorge</button>
-                <button id="ctf_turbine" value="changelevel ctf_turbine" onclick="rconExec(this); return false;">ctf_turbine</button>
-                <button id="ctf_hellfire" value="changelevel ctf_hellfire" onclick="rconExec(this); return false;">ctf_hellfire</button>
-                <button id="ctf_crasher" value="changelevel ctf_crasher" onclick="rconExec(this); return false;">ctf_crasher</button>
-                <button id="ctf_penguin_peak" value="changelevel ctf_penguin_peak" onclick="rconExec(this); return false;">ctf_penguin_peak</button>
-                <button id="ctf_doublecross_snowy" value="changelevel ctf_doublecross_snowy" onclick="rconExec(this); return false;">ctf_doublecross_snowy</button>
-                <button id="ctf_doublecross" value="changelevel ctf_doublecross" onclick="rconExec(this); return false;">ctf_doublecross</button>
-                <button id="ctf_sawmill" value="changelevel ctf_sawmill" onclick="rconExec(this); return false;">ctf_sawmill</button>
-                <button id="ctf_applejack" value="changelevel ctf_applejack" onclick="rconExec(this); return false;">ctf_applejack</button>
-                <button id="ctf_haarp" value="changelevel ctf_haarp" onclick="rconExec(this); return false;">ctf_haarp</button>
-                <button id="ctf_turbine_winter" value="changelevel ctf_turbine_winter" onclick="rconExec(this); return false;">ctf_turbine_winter</button>
-                <button id="ctf_helltrain_event" value="changelevel ctf_helltrain_event" onclick="rconExec(this); return false;">ctf_helltrain_event</button>
-                <button id="ctf_foundry" value="changelevel ctf_foundry" onclick="rconExec(this); return false;">ctf_foundry</button>
-                <button id="ctf_2fort_invasion" value="changelevel ctf_2fort_invasion" onclick="rconExec(this); return false;">ctf_2fort_invasion</button>
-                <button id="ctf_pelican_peak" value="changelevel ctf_pelican_peak" onclick="rconExec(this); return false;">ctf_pelican_peak</button>
-                <button id="ctf_snowfall_final" value="changelevel ctf_snowfall_final" onclick="rconExec(this); return false;">ctf_snowfall_final</button>
-                <button id="ctf_2fort" value="changelevel ctf_2fort" onclick="rconExec(this); return false;">ctf_2fort</button>
-                <button id="ctf_landfall" value="changelevel ctf_landfall" onclick="rconExec(this); return false;">ctf_landfall</button>
-                <button id="ctf_thundermountain" value="changelevel ctf_thundermountain" onclick="rconExec(this); return false;">ctf_thundermountain</button>
-            </article>
+                <article>
+                    <h2>Control Points</h2>
+                    <button id="cp_gorge_event" value="changelevel cp_gorge_event" onclick="rconExec(this); return false;">cp_gorge_event</button>
+                    <button id="cp_steel" value="changelevel cp_steel" onclick="rconExec(this); return false;">cp_steel</button>
+                    <button id="cp_gorge" value="changelevel cp_gorge" onclick="rconExec(this); return false;">cp_gorge</button>
+                    <button id="cp_carrier" value="changelevel cp_carrier" onclick="rconExec(this); return false;">cp_carrier</button>
+                    <button id="cp_5gorge" value="changelevel cp_5gorge" onclick="rconExec(this); return false;">cp_5gorge</button>
+                    <button id="cp_egypt_final" value="changelevel cp_egypt_final" onclick="rconExec(this); return false;">cp_egypt_final</button>
+                    <button id="cp_brew" value="changelevel cp_brew" onclick="rconExec(this); return false;">cp_brew</button>
+                    <button id="cp_gravelpit_snowy" value="changelevel cp_gravelpit_snowy" onclick="rconExec(this); return false;">cp_gravelpit_snowy</button>
+                    <button id="cp_snowplow" value="changelevel cp_snowplow" onclick="rconExec(this); return false;">cp_snowplow</button>
+                    <button id="cp_freaky_fair" value="changelevel cp_freaky_fair" onclick="rconExec(this); return false;">cp_freaky_fair</button>
+                    <button id="cp_spookeyridge" value="changelevel cp_spookeyridge" onclick="rconExec(this); return false;">cp_spookeyridge</button>
+                    <button id="cp_mountainlab" value="changelevel cp_mountainlab" onclick="rconExec(this); return false;">cp_mountainlab</button>
+                    <button id="cp_mossrock" value="changelevel cp_mossrock" onclick="rconExec(this); return false;">cp_mossrock</button>
+                    <button id="cp_darkmarsh" value="changelevel cp_darkmarsh" onclick="rconExec(this); return false;">cp_darkmarsh</button>
+                    <button id="cp_dustbowl" value="changelevel cp_dustbowl" onclick="rconExec(this); return false;">cp_dustbowl</button>
+                    <button id="cp_foundry" value="changelevel cp_foundry" onclick="rconExec(this); return false;">cp_foundry</button>
+                    <button id="cp_snakewater_final1" value="changelevel cp_snakewater_final1" onclick="rconExec(this); return false;">cp_snakewater_final1</button>
+                    <button id="cp_well" value="changelevel cp_well" onclick="rconExec(this); return false;">cp_well</button>
+                    <button id="cp_process_final" value="changelevel cp_process_final" onclick="rconExec(this); return false;">cp_process_final</button>
+                    <button id="cp_degrootkeep" value="changelevel cp_degrootkeep" onclick="rconExec(this); return false;">cp_degrootkeep</button>
+                    <button id="cp_sunshine_event" value="changelevel cp_sunshine_event" onclick="rconExec(this); return false;">cp_sunshine_event</button>
+                    <button id="cp_granary" value="changelevel cp_granary" onclick="rconExec(this); return false;">cp_granary</button>
+                    <button id="cp_coldfront" value="changelevel cp_coldfront" onclick="rconExec(this); return false;">cp_coldfront</button>
+                    <button id="cp_fastlane" value="changelevel cp_fastlane" onclick="rconExec(this); return false;">cp_fastlane</button>
+                    <button id="cp_hardwood_final" value="changelevel cp_hardwood_final" onclick="rconExec(this); return false;">cp_hardwood_final</button>
+                    <button id="cp_manor_event" value="changelevel cp_manor_event" onclick="rconExec(this); return false;">cp_manor_event</button>
+                    <button id="cp_freight_final1" value="changelevel cp_freight_final1" onclick="rconExec(this); return false;">cp_freight_final1</button>
+                    <button id="cp_reckoner" value="changelevel cp_reckoner" onclick="rconExec(this); return false;">cp_reckoner</button>
+                    <button id="cp_sulfur" value="changelevel cp_sulfur" onclick="rconExec(this); return false;">cp_sulfur</button>
+                    <button id="cp_gravelpit" value="changelevel cp_gravelpit" onclick="rconExec(this); return false;">cp_gravelpit</button>
+                    <button id="cp_vanguard" value="changelevel cp_vanguard" onclick="rconExec(this); return false;">cp_vanguard</button>
+                    <button id="cp_orange_x3" value="changelevel cp_orange_x3" onclick="rconExec(this); return false;">cp_orange_x3</button>
+                    <button id="cp_overgrown" value="changelevel cp_overgrown" onclick="rconExec(this); return false;">cp_overgrown</button>
+                    <button id="cp_lavapit_final" value="changelevel cp_lavapit_final" onclick="rconExec(this); return false;">cp_lavapit_final</button>
+                    <button id="cp_hadal" value="changelevel cp_hadal" onclick="rconExec(this); return false;">cp_hadal</button>
+                    <button id="cp_powerhouse" value="changelevel cp_powerhouse" onclick="rconExec(this); return false;">cp_powerhouse</button>
+                    <button id="cp_yukon_final" value="changelevel cp_yukon_final" onclick="rconExec(this); return false;">cp_yukon_final</button>
+                    <button id="cp_altitude" value="changelevel cp_altitude" onclick="rconExec(this); return false;">cp_altitude</button>
+                    <button id="cp_fortezza" value="changelevel cp_fortezza" onclick="rconExec(this); return false;">cp_fortezza</button>
+                    <button id="cp_standin_final" value="changelevel cp_standin_final" onclick="rconExec(this); return false;">cp_standin_final</button>
+                    <button id="cp_ambush_event" value="changelevel cp_ambush_event" onclick="rconExec(this); return false;">cp_ambush_event</button>
+                    <button id="cp_mercenarypark" value="changelevel cp_mercenarypark" onclick="rconExec(this); return false;">cp_mercenarypark</button>
+                    <button id="cp_gullywash_final1" value="changelevel cp_gullywash_final1" onclick="rconExec(this); return false;">cp_gullywash_final1</button>
+                    <button id="cp_junction_final" value="changelevel cp_junction_final" onclick="rconExec(this); return false;">cp_junction_final</button>
+                    <button id="cp_badlands" value="changelevel cp_badlands" onclick="rconExec(this); return false;">cp_badlands</button>
+                    <button id="cp_cloak" value="changelevel cp_cloak" onclick="rconExec(this); return false;">cp_cloak</button>
+                    <button id="cp_metalworks" value="changelevel cp_metalworks" onclick="rconExec(this); return false;">cp_metalworks</button>
+                    <button id="cp_frostwatch" value="changelevel cp_frostwatch" onclick="rconExec(this); return false;">cp_frostwatch</button>
+                    <button id="cp_canaveral_5cp" value="changelevel cp_canaveral_5cp" onclick="rconExec(this); return false;">cp_canaveral_5cp</button>
+                    <button id="cp_burghausen" value="changelevel cp_burghausen" onclick="rconExec(this); return false;">cp_burghausen</button>
+                    <button id="cp_sunshine" value="changelevel cp_sunshine" onclick="rconExec(this); return false;">cp_sunshine</button>
+                    <button id="cp_degrootkeep_rats" value="changelevel cp_degrootkeep_rats" onclick="rconExec(this); return false;">cp_degrootkeep_rats</button>
+                </article>
 
-            <article>
-                <h2>King of the Hill</h2>
-                <button id="koth_los_muertos" value="changelevel koth_los_muertos" onclick="rconExec(this); return false;">koth_los_muertos</button>
-                <button id="koth_suijin" value="changelevel koth_suijin" onclick="rconExec(this); return false;">koth_suijin</button>
-                <button id="koth_lazarus" value="changelevel koth_lazarus" onclick="rconExec(this); return false;">koth_lazarus</button>
-                <button id="koth_lakeside_final" value="changelevel koth_lakeside_final" onclick="rconExec(this); return false;">koth_lakeside_final</button>
-                <button id="koth_slaughter_event" value="changelevel koth_slaughter_event" onclick="rconExec(this); return false;">koth_slaughter_event</button>
-                <button id="koth_overcast_final" value="changelevel koth_overcast_final" onclick="rconExec(this); return false;">koth_overcast_final</button>
-                <button id="koth_undergrove_event" value="changelevel koth_undergrove_event" onclick="rconExec(this); return false;">koth_undergrove_event</button>
-                <button id="koth_highpass" value="changelevel koth_highpass" onclick="rconExec(this); return false;">koth_highpass</button>
-                <button id="koth_viaduct" value="changelevel koth_viaduct" onclick="rconExec(this); return false;">koth_viaduct</button>
-                <button id="koth_maple_ridge_event" value="changelevel koth_maple_ridge_event" onclick="rconExec(this); return false;">koth_maple_ridge_event</button>
-                <button id="koth_sharkbay" value="changelevel koth_sharkbay" onclick="rconExec(this); return false;">koth_sharkbay</button>
-                <button id="koth_bagel_event" value="changelevel koth_bagel_event" onclick="rconExec(this); return false;">koth_bagel_event</button>
-                <button id="koth_cachoeira" value="changelevel koth_cachoeira" onclick="rconExec(this); return false;">koth_cachoeira</button>
-                <button id="koth_snowtower" value="changelevel koth_snowtower" onclick="rconExec(this); return false;">koth_snowtower</button>
-                <button id="koth_cascade" value="changelevel koth_cascade" onclick="rconExec(this); return false;">koth_cascade</button>
-                <button id="koth_viaduct_event" value="changelevel koth_viaduct_event" onclick="rconExec(this); return false;">koth_viaduct_event</button>
-                <button id="koth_brazil" value="changelevel koth_brazil" onclick="rconExec(this); return false;">koth_brazil</button>
-                <button id="koth_synthetic_event" value="changelevel koth_synthetic_event" onclick="rconExec(this); return false;">koth_synthetic_event</button>
-                <button id="koth_megaton" value="changelevel koth_megaton" onclick="rconExec(this); return false;">koth_megaton</button>
-                <button id="koth_megalo" value="changelevel koth_megalo" onclick="rconExec(this); return false;">koth_megalo</button>
-                <button id="koth_slasher" value="changelevel koth_slasher" onclick="rconExec(this); return false;">koth_slasher</button>
-                <button id="koth_harvest_final" value="changelevel koth_harvest_final" onclick="rconExec(this); return false;">koth_harvest_final</button>
-                <button id="koth_lakeside_event" value="changelevel koth_lakeside_event" onclick="rconExec(this); return false;">koth_lakeside_event</button>
-                <button id="koth_slime" value="changelevel koth_slime" onclick="rconExec(this); return false;">koth_slime</button>
-                <button id="koth_moonshine_event" value="changelevel koth_moonshine_event" onclick="rconExec(this); return false;">koth_moonshine_event</button>
-                <button id="koth_harvest_event" value="changelevel koth_harvest_event" onclick="rconExec(this); return false;">koth_harvest_event</button>
-                <button id="koth_sawmill" value="changelevel koth_sawmill" onclick="rconExec(this); return false;">koth_sawmill</button>
-                <button id="koth_probed" value="changelevel koth_probed" onclick="rconExec(this); return false;">koth_probed</button>
-                <button id="koth_krampus" value="changelevel koth_krampus" onclick="rconExec(this); return false;">koth_krampus</button>
-                <button id="koth_nucleus" value="changelevel koth_nucleus" onclick="rconExec(this); return false;">koth_nucleus</button>
-                <button id="koth_badlands" value="changelevel koth_badlands" onclick="rconExec(this); return false;">koth_badlands</button>
-                <button id="koth_rotunda" value="changelevel koth_rotunda" onclick="rconExec(this); return false;">koth_rotunda</button>
-                <button id="koth_sawmill_event" value="changelevel koth_sawmill_event" onclick="rconExec(this); return false;">koth_sawmill_event</button>
-                <button id="koth_toxic" value="changelevel koth_toxic" onclick="rconExec(this); return false;">koth_toxic</button>
-                <button id="koth_king" value="changelevel koth_king" onclick="rconExec(this); return false;">koth_king</button>
-            </article>
-            
-            <article>
-                <h2>Mann Versus Machine</h2>
-                <button id="mvm_mannhattan" value="changelevel mvm_mannhattan" onclick="rconExec(this); return false;">mvm_mannhattan</button>
-                <button id="mvm_rottenburg" value="changelevel mvm_rottenburg" onclick="rconExec(this); return false;">mvm_rottenburg</button>
-                <button id="mvm_ghost_town" value="changelevel mvm_ghost_town" onclick="rconExec(this); return false;">mvm_ghost_town</button>
-                <button id="mvm_mannworks" value="changelevel mvm_mannworks" onclick="rconExec(this); return false;">mvm_mannworks</button>
-                <button id="mvm_coaltown" value="changelevel mvm_coaltown" onclick="rconExec(this); return false;">mvm_coaltown</button>
-                <button id="mvm_bigrock" value="changelevel mvm_bigrock" onclick="rconExec(this); return false;">mvm_bigrock</button>
-                <button id="mvm_decoy" value="changelevel mvm_decoy" onclick="rconExec(this); return false;">mvm_decoy</button>
-            </article>
+                <article>
+                    <h2>Capture the Flag</h2>
+                    <button id="ctf_well" value="changelevel ctf_well" onclick="rconExec(this); return false;">ctf_well</button>
+                    <button id="ctf_frosty" value="changelevel ctf_frosty" onclick="rconExec(this); return false;">ctf_frosty</button>
+                    <button id="ctf_gorge" value="changelevel ctf_gorge" onclick="rconExec(this); return false;">ctf_gorge</button>
+                    <button id="ctf_turbine" value="changelevel ctf_turbine" onclick="rconExec(this); return false;">ctf_turbine</button>
+                    <button id="ctf_hellfire" value="changelevel ctf_hellfire" onclick="rconExec(this); return false;">ctf_hellfire</button>
+                    <button id="ctf_crasher" value="changelevel ctf_crasher" onclick="rconExec(this); return false;">ctf_crasher</button>
+                    <button id="ctf_penguin_peak" value="changelevel ctf_penguin_peak" onclick="rconExec(this); return false;">ctf_penguin_peak</button>
+                    <button id="ctf_doublecross_snowy" value="changelevel ctf_doublecross_snowy" onclick="rconExec(this); return false;">ctf_doublecross_snowy</button>
+                    <button id="ctf_doublecross" value="changelevel ctf_doublecross" onclick="rconExec(this); return false;">ctf_doublecross</button>
+                    <button id="ctf_sawmill" value="changelevel ctf_sawmill" onclick="rconExec(this); return false;">ctf_sawmill</button>
+                    <button id="ctf_applejack" value="changelevel ctf_applejack" onclick="rconExec(this); return false;">ctf_applejack</button>
+                    <button id="ctf_haarp" value="changelevel ctf_haarp" onclick="rconExec(this); return false;">ctf_haarp</button>
+                    <button id="ctf_turbine_winter" value="changelevel ctf_turbine_winter" onclick="rconExec(this); return false;">ctf_turbine_winter</button>
+                    <button id="ctf_helltrain_event" value="changelevel ctf_helltrain_event" onclick="rconExec(this); return false;">ctf_helltrain_event</button>
+                    <button id="ctf_foundry" value="changelevel ctf_foundry" onclick="rconExec(this); return false;">ctf_foundry</button>
+                    <button id="ctf_2fort_invasion" value="changelevel ctf_2fort_invasion" onclick="rconExec(this); return false;">ctf_2fort_invasion</button>
+                    <button id="ctf_pelican_peak" value="changelevel ctf_pelican_peak" onclick="rconExec(this); return false;">ctf_pelican_peak</button>
+                    <button id="ctf_snowfall_final" value="changelevel ctf_snowfall_final" onclick="rconExec(this); return false;">ctf_snowfall_final</button>
+                    <button id="ctf_2fort" value="changelevel ctf_2fort" onclick="rconExec(this); return false;">ctf_2fort</button>
+                    <button id="ctf_landfall" value="changelevel ctf_landfall" onclick="rconExec(this); return false;">ctf_landfall</button>
+                    <button id="ctf_thundermountain" value="changelevel ctf_thundermountain" onclick="rconExec(this); return false;">ctf_thundermountain</button>
+                </article>
 
-        </main>
-    
-        <main id="admin">
-            <h1>Administration</h1>
-            <article>
-                <button value="say potato" onclick="rconExec(this); return false;">Say potato</button>
-                <button value="tf_bot_add blue" onclick="rconExec(this); return false;">Add RED bot</button>
-                <button value="tf_bot_add red" onclick="rconExec(this); return false;">Add BLU bot</button>
-            </article>
-        </main>
+                <article>
+                    <h2>King of the Hill</h2>
+                    <button id="koth_los_muertos" value="changelevel koth_los_muertos" onclick="rconExec(this); return false;">koth_los_muertos</button>
+                    <button id="koth_suijin" value="changelevel koth_suijin" onclick="rconExec(this); return false;">koth_suijin</button>
+                    <button id="koth_lazarus" value="changelevel koth_lazarus" onclick="rconExec(this); return false;">koth_lazarus</button>
+                    <button id="koth_lakeside_final" value="changelevel koth_lakeside_final" onclick="rconExec(this); return false;">koth_lakeside_final</button>
+                    <button id="koth_slaughter_event" value="changelevel koth_slaughter_event" onclick="rconExec(this); return false;">koth_slaughter_event</button>
+                    <button id="koth_overcast_final" value="changelevel koth_overcast_final" onclick="rconExec(this); return false;">koth_overcast_final</button>
+                    <button id="koth_undergrove_event" value="changelevel koth_undergrove_event" onclick="rconExec(this); return false;">koth_undergrove_event</button>
+                    <button id="koth_highpass" value="changelevel koth_highpass" onclick="rconExec(this); return false;">koth_highpass</button>
+                    <button id="koth_viaduct" value="changelevel koth_viaduct" onclick="rconExec(this); return false;">koth_viaduct</button>
+                    <button id="koth_maple_ridge_event" value="changelevel koth_maple_ridge_event" onclick="rconExec(this); return false;">koth_maple_ridge_event</button>
+                    <button id="koth_sharkbay" value="changelevel koth_sharkbay" onclick="rconExec(this); return false;">koth_sharkbay</button>
+                    <button id="koth_bagel_event" value="changelevel koth_bagel_event" onclick="rconExec(this); return false;">koth_bagel_event</button>
+                    <button id="koth_cachoeira" value="changelevel koth_cachoeira" onclick="rconExec(this); return false;">koth_cachoeira</button>
+                    <button id="koth_snowtower" value="changelevel koth_snowtower" onclick="rconExec(this); return false;">koth_snowtower</button>
+                    <button id="koth_cascade" value="changelevel koth_cascade" onclick="rconExec(this); return false;">koth_cascade</button>
+                    <button id="koth_viaduct_event" value="changelevel koth_viaduct_event" onclick="rconExec(this); return false;">koth_viaduct_event</button>
+                    <button id="koth_brazil" value="changelevel koth_brazil" onclick="rconExec(this); return false;">koth_brazil</button>
+                    <button id="koth_synthetic_event" value="changelevel koth_synthetic_event" onclick="rconExec(this); return false;">koth_synthetic_event</button>
+                    <button id="koth_megaton" value="changelevel koth_megaton" onclick="rconExec(this); return false;">koth_megaton</button>
+                    <button id="koth_megalo" value="changelevel koth_megalo" onclick="rconExec(this); return false;">koth_megalo</button>
+                    <button id="koth_slasher" value="changelevel koth_slasher" onclick="rconExec(this); return false;">koth_slasher</button>
+                    <button id="koth_harvest_final" value="changelevel koth_harvest_final" onclick="rconExec(this); return false;">koth_harvest_final</button>
+                    <button id="koth_lakeside_event" value="changelevel koth_lakeside_event" onclick="rconExec(this); return false;">koth_lakeside_event</button>
+                    <button id="koth_slime" value="changelevel koth_slime" onclick="rconExec(this); return false;">koth_slime</button>
+                    <button id="koth_moonshine_event" value="changelevel koth_moonshine_event" onclick="rconExec(this); return false;">koth_moonshine_event</button>
+                    <button id="koth_harvest_event" value="changelevel koth_harvest_event" onclick="rconExec(this); return false;">koth_harvest_event</button>
+                    <button id="koth_sawmill" value="changelevel koth_sawmill" onclick="rconExec(this); return false;">koth_sawmill</button>
+                    <button id="koth_probed" value="changelevel koth_probed" onclick="rconExec(this); return false;">koth_probed</button>
+                    <button id="koth_krampus" value="changelevel koth_krampus" onclick="rconExec(this); return false;">koth_krampus</button>
+                    <button id="koth_nucleus" value="changelevel koth_nucleus" onclick="rconExec(this); return false;">koth_nucleus</button>
+                    <button id="koth_badlands" value="changelevel koth_badlands" onclick="rconExec(this); return false;">koth_badlands</button>
+                    <button id="koth_rotunda" value="changelevel koth_rotunda" onclick="rconExec(this); return false;">koth_rotunda</button>
+                    <button id="koth_sawmill_event" value="changelevel koth_sawmill_event" onclick="rconExec(this); return false;">koth_sawmill_event</button>
+                    <button id="koth_toxic" value="changelevel koth_toxic" onclick="rconExec(this); return false;">koth_toxic</button>
+                    <button id="koth_king" value="changelevel koth_king" onclick="rconExec(this); return false;">koth_king</button>
+                </article>
+                
+                <article>
+                    <h2>Mann Versus Machine</h2>
+                    <button id="mvm_mannhattan" value="changelevel mvm_mannhattan" onclick="rconExec(this); return false;">mvm_mannhattan</button>
+                    <button id="mvm_rottenburg" value="changelevel mvm_rottenburg" onclick="rconExec(this); return false;">mvm_rottenburg</button>
+                    <button id="mvm_ghost_town" value="changelevel mvm_ghost_town" onclick="rconExec(this); return false;">mvm_ghost_town</button>
+                    <button id="mvm_mannworks" value="changelevel mvm_mannworks" onclick="rconExec(this); return false;">mvm_mannworks</button>
+                    <button id="mvm_coaltown" value="changelevel mvm_coaltown" onclick="rconExec(this); return false;">mvm_coaltown</button>
+                    <button id="mvm_bigrock" value="changelevel mvm_bigrock" onclick="rconExec(this); return false;">mvm_bigrock</button>
+                    <button id="mvm_decoy" value="changelevel mvm_decoy" onclick="rconExec(this); return false;">mvm_decoy</button>
+                </article>
+
+            </main>
         
+            <main id="admin">
+                <h1>Administration</h1>
+                <article>
+                    <button id="potato" value="say potato" onclick="rconExec(this); return false;">Say potato</button>
+                    <button id="red" value="tf_bot_add blue" onclick="rconExec(this); return false;">Add RED bot</button>
+                    <button id="blu" value="tf_bot_add red" onclick="rconExec(this); return false;">Add BLU bot</button>
+                </article>
+            </main>
+        </div>
+        <footer>
+            Made with ❤️ by <a href="https://github.com/SpeWnz/">SpeWnz</a>, <a href="https://github.com/galvanizedheart/">Galvanizedheart</a>, <a href="https://github.com/Stormix-dev">Stormix-dev</a>
+        </footer>
     </body>
 </html>
 
