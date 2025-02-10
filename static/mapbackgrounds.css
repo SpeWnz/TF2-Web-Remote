@@ -1,9 +1,17 @@
+:root{
+    --buttonbg: rgba(255, 255, 255, 0.70);
+}
+
+article button{
+    background-position: center !important;
+}
+
 #pl_badwater
 {
-    background-image: url('assets/images/pl_badwater.png');
+    background:radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_badwater.png');
 }
 
 #pl_upward
 {
-    background-image: url('assets/images/pl_upward.png');
+    background:radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_upward.png');
 }
