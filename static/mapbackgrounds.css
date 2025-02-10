@@ -10,8 +10,115 @@ article button{
 {
     background:radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_badwater.png');
 }
-
 #pl_upward
 {
     background:radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_upward.png');
+}
+#cp_5gorge {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_5gorge.jpg');
+}
+#cp_degrootkeep {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_degrootkeep.jpg');
+}
+#cp_gorge {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_gorge.jpg');
+}
+#cp_metalworks {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_metalworks.jpg');
+}
+#cp_steel {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_steel.jpg');
+}
+#cp_altitude {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_altitude.jpg');
+}
+#cp_degrootkeep_rats {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_degrootkeep_rats.jpg');
+}
+#cp_granary {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_granary.jpg');
+}
+#cp_mossrock {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_mossrock.jpg');
+}
+#cp_sulfur {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_sulfur.jpg');
+}
+#cp_ambush_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_ambush_event.jpg');
+}
+#cp_dustbowl {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_dustbowl.jpg');
+}
+#cp_gravelpit {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_gravelpit.jpg');
+}
+#cp_mountainlab {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_mountainlab.jpg');
+}
+#cp_sunshine_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_sunshine_event.jpg');
+}
+#cp_badlands {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_badlands.jpg');
+}
+#cp_egypt_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_egypt_final.jpg');
+}
+#cp_gravelpit_snowy {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_gravelpit_snowy.jpg');
+}
+#cp_overgrown {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_overgrown.jpg');
+}
+#cp_sunshine {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_sunshine.jpg');
+}
+#cp_brew {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_brew.jpg');
+}
+#cp_fastlane {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_fastlane.jpg');
+}
+#cp_gullywash_final1 {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_gullywash_final1.jpg');
+}
+#cp_powerhouse {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_powerhouse.jpg');
+}
+#cp_vanguard {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_vanguard.jpg');
+}
+#cp_fortezza {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_fortezza.jpg');
+}
+#cp_hadal {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_hadal.jpg');
+}
+#cp_process_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_process_final.jpg');
+}
+#cp_well {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_well.jpg');
+}
+#cp_foundry {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_foundry.jpg');
+}
+#cp_hardwood_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_hardwood_final.jpg');
+}
+#cp_reckoner {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_reckoner.jpg');
+}
+#cp_yukon_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_yukon_final.jpg');
+}
+#cp_burghausen {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_burghausen.jpg');
+}
+#cp_canaveral_5cp {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_canaveral_5cp.jpg');
+}
+#cp_mercenarypark {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_mercenarypark.jpg');
 }
