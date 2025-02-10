@@ -1,3 +1,4 @@
 flask
 valve
 python-valve
+pyyaml

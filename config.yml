@@ -1,0 +1,12 @@
+{'valve':
+    {
+      'address': 'localhost',
+      'port': 27015,
+      'password': 'your password'
+    },
+  'web':
+    {
+      'address': '0.0.0.0',
+      'port': 8910
+    }
+}
