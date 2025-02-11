@@ -7,14 +7,152 @@ article button{
     font-size: medium;
     text-shadow: 0px 0px 5px white;
 }
-
-#pl_badwater
-{
-    background:radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_badwater.png');
+#pl_badwater {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_badwater.jpg');
 }
-#pl_upward
-{
-    background:radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_upward.png');
+
+#pl_cactuscanyon {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_cactuscanyon.jpg');
+}
+
+#pl_corruption {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_corruption.jpg');
+}
+
+#pl_frontier_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_frontier_final.jpg');
+}
+
+#pl_millstone_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_millstone_event.jpg');
+}
+
+#pl_precipice_event_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_precipice_event_final.jpg');
+}
+
+#pl_spineyard {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_spineyard.jpg');
+}
+
+#pl_venice {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_venice.jpg');
+}
+
+#pl_barnblitz {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_barnblitz.jpg');
+}
+
+#pl_camber {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_camber.jpg');
+}
+
+#pl_embargo {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_embargo.jpg');
+}
+
+#pl_frostcliff {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_frostcliff.jpg');
+}
+
+#pl_odyssey {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_odyssey.jpg');
+}
+
+#pl_rumble_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_rumble_event.jpg');
+}
+
+#pl_swiftwater_final1 {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_swiftwater_final1.jpg');
+}
+
+#pl_wutville_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_wutville_event.jpg');
+}
+
+#pl_bloodwater {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_bloodwater.jpg');
+}
+
+#pl_cashworks {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_cashworks.jpg');
+}
+
+#pl_emerge {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_emerge.jpg');
+}
+
+#pl_goldrush {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_goldrush.jpg');
+}
+
+#pl_patagonia {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_patagonia.jpg');
+}
+
+#pl_rumford_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_rumford_event.jpg');
+}
+
+#pl_terror_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_terror_event.jpg');
+}
+
+#pl_borneo {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_borneo.jpg');
+}
+
+#pl_chilly {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_chilly.jpg');
+}
+
+#pl_enclosure_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_enclosure_final.jpg');
+}
+
+#pl_hasslecastle {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_hasslecastle.jpg');
+}
+
+#pl_phoenix {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_phoenix.jpg');
+}
+
+#pl_sludgepit_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_sludgepit_event.jpg');
+}
+
+#pl_thundermountain {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_thundermountain.jpg');
+}
+
+#pl_breadspace {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_breadspace.jpg');
+}
+
+#pl_coal_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_coal_event.jpg');
+}
+
+#pl_fifthcurve_event {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_fifthcurve_event.jpg');
+}
+
+#pl_hoodoo_final {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_hoodoo_final.jpg');
+}
+
+#pl_pier {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_pier.jpg');
+}
+
+#pl_snowycoast {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_snowycoast.jpg');
+}
+
+#pl_upward {
+    background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/pl_upward.jpg');
 }
 #cp_5gorge {
     background: radial-gradient(var(--buttonbg), rgba(0, 0, 0, 0)), url('assets/images/cp_5gorge.jpg');
