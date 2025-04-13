@@ -28,6 +28,14 @@ def rcon_exec():
 
 if __name__ == '__main__':
     
-    _RCON.connect()
-    _RCON.authenticate()
+    try:
+        print("Connecting to RCON ...")
+        _RCON.connect()
+        _RCON.authenticate()
+        print("Connected to RCON")
+    except Exception as e:
+        print("Could not connect to RCON. Is the server online?")
+        exit()
+
+
     app.run(debug=True,host=server_conf['web']['address'],port=server_conf['web']['port'])

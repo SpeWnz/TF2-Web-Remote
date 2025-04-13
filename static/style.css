@@ -137,15 +137,15 @@ button:hover{
     transition: 0.2s;
 }
 
-#red{
+.red{
     background-color: maroon;
 }
 
-#blu{
+.blu{
     background-color: darkslateblue;
 }
 
-#blu, #red{
+.red, #blu{
     color: var(--main-elem-text) !important;
     text-shadow: none !important;
     font-size: large;

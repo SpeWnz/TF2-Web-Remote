@@ -198,9 +198,23 @@
             <main id="admin">
                 <h1>Administration</h1>
                 <article>
+                    
                     <button id="potato" value="say potato" onclick="rconExec(this); return false;">Say potato</button>
-                    <button id="red" value="tf_bot_add blue" onclick="rconExec(this); return false;">Add RED bot</button>
-                    <button id="blu" value="tf_bot_add red" onclick="rconExec(this); return false;">Add BLU bot</button>
+                    
+                    <button class="red" value="tf_bot_add red" onclick="rconExec(this); return false;">Add RED bot</button>
+                    <button class="red" value="tf_bot_kick red" onclick="rconExec(this); return false;">Kick all RED bots</button>
+                    
+                    <button class="blu" value="tf_bot_add blue" onclick="rconExec(this); return false;">Add BLU bot</button>
+                    <button class="blu" value="tf_bot_kick blue" onclick="rconExec(this); return false;">Kick all BLU bots</button>
+                    
+                    <button value="say GENERATING NAV; sv_cheats 1; nav_generate" onclick="rconExec(this); return false;">Generate NAV</button>
+
+                    <button value="tf_bot_quota 0" onclick="rconExec(this); return false;">Bot Quota 0</button>
+                    <button value="tf_bot_quota 6" onclick="rconExec(this); return false;">Bot Quota 6</button>
+                    <button value="tf_bot_quota 10" onclick="rconExec(this); return false;">Bot Quota 10</button>
+                    <button value="tf_bot_quota 20" onclick="rconExec(this); return false;">Bot Quota 20</button>
+                    <button value="tf_bot_quota 32" onclick="rconExec(this); return false;">Bot Quota 32</button>
+
                 </article>
             </main>
         </div>
