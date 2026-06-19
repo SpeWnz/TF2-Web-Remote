@@ -1,4 +1,5 @@
-
+venv
 a.html
 /lista mappe
 *.code-workspace
+release
