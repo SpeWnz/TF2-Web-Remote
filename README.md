@@ -6,7 +6,10 @@ If you like to play Team Fortress 2 with your friends on your own server you kno
 
 TF2 Web Remote aims to solve this very problem with a sleek, fun and easy to use web interface!
 
-[TODO: add pictures and istructions for setup]
+## Setup
+_Requires Python 3 to be installed on the host machine!_
+The app comes pre-configured with the default `hostname` and `port numbers`, however you **will** need to edit the `config.yml` file with your own TF2 Server password if you set one up.
+To start your Web Remote run `startLinux.sh` for Linux or macOS OR `startWin.bat` for Windows servers, do not run `main.py` directly as the script creates a virtual environment and checks for the necessary dependencies for the app to run correctly.
 
 ## Why a web interface?
 Because it's fast and easy to setup, plus it can be accessed via the Steam Overlay's embedded web browser!
