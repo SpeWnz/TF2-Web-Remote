@@ -1,4 +1,9 @@
-{'valve':
+{
+  'system':
+    {
+      'isDebug':false
+    },
+  'valve':
     {
       'address': 'localhost',
       'port': 27015,
